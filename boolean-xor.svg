@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="443.03104"
+   height="328.74533"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.2 r9819"
+   sodipodi:docname="boolean-xor.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.5642256"
+     inkscape:cx="235.94"
+     inkscape:cy="159.42619"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer8"
+     showgrid="false"
+     inkscape:window-width="1323"
+     inkscape:window-height="949"
+     inkscape:window-x="84"
+     inkscape:window-y="37"
+     inkscape:window-maximized="0"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="Intersection"
+     style="display:inline"
+     transform="translate(-21.341599,-223.70379)">
+    <path
+       style="fill:#00ff00;stroke:none"
+       d="m 307.24989,370.82293 -81.64996,-47.14064 -47.14062,81.64997 81.64994,47.14061 47.14064,-81.64994 z"
+       id="rect2985-1"
+       inkscape:connector-curvature="0" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer6"
+     inkscape:label="Pieces Behind Intersection"
+     style="display:inline"
+     transform="translate(-21.341599,-223.70379)">
+    <path
+       style="fill:#ff0000;stroke:#000000;stroke-opacity:1;display:inline"
+       d="m 364.39051,271.85246 -81.64995,-47.14063 -57.14063,98.97046 81.64996,47.14064 57.14062,-98.97047 z"
+       id="rect2985-4"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#ff0000;stroke:#000000;stroke-opacity:1;display:inline"
+       d="m 406.22035,427.96354 -98.97046,-57.14061 -47.14064,81.64994 98.97047,57.14063 47.14063,-81.64996 z"
+       id="rect2985-3"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;stroke:#000000;stroke-opacity:1;display:inline"
+       d="m 463.36097,328.99308 -98.97046,-57.14062 -57.14062,98.97047 98.97046,57.14061 57.14062,-98.97046 z"
+       id="rect2985-0" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer8"
+     inkscape:label="Pieces In Front Of Intersection"
+     style="display:inline"
+     transform="translate(-21.341599,-223.70379)">
+    <path
+       style="fill:#0000ff;stroke:#000000;stroke-opacity:1;display:inline"
+       d="m 225.59993,323.68229 -98.97047,-57.14062 -47.140627,81.64995 98.970477,57.14064 47.14062,-81.64997 z"
+       id="rect2989-7"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#0000ff;stroke:#000000;stroke-opacity:1;display:inline"
+       d="m 260.10925,452.47287 -81.64994,-47.14061 -57.14063,98.97046 81.64995,47.14062 57.14062,-98.97047 z"
+       id="rect2989-5"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:#0000ff;stroke:#000000;stroke-opacity:1;display:inline"
+       d="M 178.45931,405.33226 79.488833,348.19162 22.348216,447.1621 121.31868,504.30272 178.45931,405.33226 z"
+       id="rect2989-0" />
+  </g>
+  <g
+     inkscape:label="Boxes"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline"
+     transform="translate(-21.341599,-223.70379)">
+    <rect
+       id="rect2985"
+       width="208.57143"
+       height="208.57143"
+       x="53.226952"
+       y="-565.78723"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-opacity:1"
+       transform="matrix(-0.5,0.8660254,-0.8660254,-0.5,0,0)" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-opacity:1"
+       y="-451.50153"
+       x="167.51265"
+       height="208.57143"
+       width="208.57143"
+       id="rect2989"
+       transform="matrix(-0.5,0.8660254,-0.8660254,-0.5,0,0)" />
+  </g>
+</svg>
