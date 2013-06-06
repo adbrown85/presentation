@@ -80,6 +80,7 @@ Texturing
 Shaders
 -------
 
+<!--
     in vec3 Coord0;
     out vec4 FragColor;
 
@@ -90,8 +91,13 @@ Shaders
             FragColor = vec4(0, 1, 0, 1);
         }
     }
+-->
 
+![](xmas.png)
+
+<!--
 Demonstration...
+-->
 
 <!-- Fragment approximates pixel... -->
 

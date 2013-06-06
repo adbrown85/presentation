@@ -1,0 +1,18 @@
+<scene>
+
+    <program id="xmas-program">
+        <shader type="vertex" file="xmas.vert" />
+        <shader type="fragment" file="xmas.frag" />
+        <attribute name="MCVertex" usage="position" />
+        <attribute name="TexCoord0" usage="texcoord0" />
+    </program>
+
+    <clear color="0 0 0 0" depth="1" />
+
+    <use program="xmas-program">
+        <translate>
+            <uniform type="mat4" name="MVPMatrix" usage="modelviewprojection" />
+            <cube />
+        </translate>
+    </use>
+</scene>
