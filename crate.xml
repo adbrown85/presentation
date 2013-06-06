@@ -1,0 +1,22 @@
+<scene>
+
+  <program id="texture-program">
+    <shader type="vertex" file="crate.vert" />
+    <shader type="fragment" file="crate.frag" />
+    <attribute name="MCVertex" usage="position" />
+    <attribute name="TexCoord0" usage="texcoord0" />
+  </program>
+
+  <clear color="0 0 0 0" depth="1.0" />
+
+  <texture id="crate-texture" file="crate.bmp">
+    <use program="texture-program">
+      <uniform type="sampler2d" name="Texture" link="crate-texture" />
+      <translate>
+        <uniform type="mat4" name="MVPMatrix" usage="modelviewprojection" />
+        <cube />
+      </translate>
+    </use>
+  </texture>
+
+</scene>

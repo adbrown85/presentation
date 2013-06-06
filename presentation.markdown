@@ -62,13 +62,20 @@ Featuring...
 Texturing
 ---------
 
+<!--
  - What is a texture?
  - Texture coordinates
  - Video cards are really good at this...
+-->
 
+<!--
 **Picture of 2D texture on a shape**
+-->
+![](crate.png)
 
+<!--
 **Picture of texture coordinates**
+-->
 
 Shaders
 -------
