@@ -104,7 +104,7 @@ Demonstration...
 Boolean Operations
 ------------------
 
-**Venn diagram for AND / XOR**
+![](venn.pdf)
 
 Depth Buffer
 ------------
