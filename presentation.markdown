@@ -405,7 +405,7 @@ Quality
 
  - Boolean XOR has problems with certain angles
 
-**Picture of problem with perspective**
+![](pieces-in-perspective.pdf)
 
 Evaluation
 ----------
