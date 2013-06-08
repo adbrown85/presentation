@@ -374,7 +374,7 @@ First Approach
 
 - - -
 
-**Screen shot of first approach**
+![](boolean-and-screenshot.png)
 
 Second Approach
 ---------------
