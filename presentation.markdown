@@ -397,7 +397,8 @@ Performance
 |:--------------------------|----------:|--------:|
 | Boolean AND with Masking  | 22        | 13      |
 | Boolean AND with XOR      | 24        | 13      |
-| Slicing                   | ?         | ?       |
+| Slicing (uniforms)        | ?         | ?       |
+| Slicing (attributes)      | ?         | ?       |
 
 Quality
 -------
