@@ -176,13 +176,17 @@ Demonstration...
 Rendering Intersecting Volumes
 ------------------------------
 
+<!--
  - Why is it hard?
     - Need to paint back-to-front
     - Need to properly blend each sample
+ -->
 
-**Top-down view of intersecting volumes**
+![](intersecting-volumes.pdf)
 
+<!--
 What has been done so far...
+-->
 
 Slicing Method
 --------------
