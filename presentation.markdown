@@ -155,7 +155,7 @@ First pass of Kruger Method
 
 - - -
 
-**Picture of back faces**
+![](back-faces.png)
 
 Second pass of Kruger Method
 ----------------------------
