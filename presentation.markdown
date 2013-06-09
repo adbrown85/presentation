@@ -51,7 +51,7 @@ OpenGL
 ------
 
  - OpenGL = Open Graphics Language
- - Library for rendering 3D graphics
+ - API for rendering 3D graphics
  - Faster than CPU
 
 Featuring...
