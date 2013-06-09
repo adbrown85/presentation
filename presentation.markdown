@@ -138,8 +138,6 @@ Framebuffer Objects
       /* Use color... */
     }
 
-Demonstration...
-
 Previous Work
 =============
 
