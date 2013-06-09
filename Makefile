@@ -1,9 +1,10 @@
 INPUT   := presentation.markdown
 OUTPUT  := presentation.pdf
+FLAGS   := -t beamer
 
 all: $(OUTPUT)
 $(OUTPUT): $(INPUT)
-	@pandoc -t beamer $< -o $@
+	@pandoc $(FLAGS) $< -o $@
 clean:
 	@$(RM) $(OUTPUT)
 view: $(OUTPUT)
