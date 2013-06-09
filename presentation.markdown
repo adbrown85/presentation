@@ -173,9 +173,7 @@ Second pass of Kruger Method
 
 - - -
 
-**Shader code snippet**
-
-Demonstration...
+![](kruger.png)
 
 Rendering Intersecting Volumes
 ------------------------------

@@ -1,0 +1,54 @@
+<scene>
+
+   <program id="coords">
+      <shader type="vertex" file="coords.vert" />
+      <shader type="fragment" file="coords.frag" />
+      <attribute name="MCVertex" usage="position" />
+      <attribute name="TexCoord0" usage="texcoord0" />
+   </program>
+
+   <program id="kruger">
+      <shader type="vertex" file="kruger.vert" />
+      <shader type="fragment" file="kruger.frag" />
+      <attribute name="MCVertex" usage="position" />
+      <attribute name="TexCoord0" usage="texcoord0" />
+   </program>
+
+   <clear color="0 0 0 0" depth="1" />
+
+   <texture id="back-faces" size="768">
+
+      <framebuffer>
+         <attachment type="texture" usage="color" link="back-faces" />
+         <use program="coords">
+            <clear color="0 0 0 0" />
+            <uniform type="mat4" name="MVPMatrix" usage="modelviewprojection" />
+            <cull mode="front" />
+            <instance link="cube-group" />
+         </use>
+      </framebuffer>
+
+      <texture id="volume" file="bunny.vlb">
+         <use program="kruger">
+            <cull mode="back" />
+            <uniform type="sampler2d" name="Framebuffer" link="back-faces" />
+            <uniform type="sampler3d" name="Volume" link="volume" />
+            <group id="cube-group">
+               <translate y="-0.025" z="2.75">
+                  <rotate axis="1 0 0" angle="20">
+                     <rotate axis="0 1 0" angle="15">
+                        <rotate axis="0 1 0" angle="180">
+                           <rotate axis="1 0 0" angle="90">
+                              <uniform type="mat4" name="MVPMatrix" usage="modelviewprojection" />
+                              <cube />
+                           </rotate>
+                        </rotate>
+                     </rotate>
+                  </rotate>
+               </translate>
+            </group>
+         </use>
+      </texture>
+
+   </texture>
+</scene>
