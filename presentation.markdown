@@ -341,12 +341,13 @@ Boolean XOR Node
 ----------------
 
  - Based on Hodgman/Sutherland line-clipping algorithm
+
+![](clipping.pdf)
+
+<!--
  - Separate function for clipping each side
  - Keep what's outside instead of inside
-
-- - -
-
-**Picture of clipping process**
+-->
 
 Application
 -----------
