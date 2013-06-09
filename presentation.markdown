@@ -150,7 +150,7 @@ Kruger Method
 
 <!-- Improve this by adding red dots where they exit... -->
 
-First pass of Kruger Method
+First Pass of Kruger Method
 ---------------------------
 
  1. Bind framebuffer with texture
@@ -162,7 +162,7 @@ First pass of Kruger Method
 
 ![](back-faces.png)
 
-Second pass of Kruger Method
+Second Pass of Kruger Method
 ----------------------------
 
  1. Unbind framebuffer
