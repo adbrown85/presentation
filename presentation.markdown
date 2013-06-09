@@ -192,10 +192,6 @@ What has been done so far...
 Slicing Method
 --------------
 
-![](slicing-aligned.pdf)
-
-- - -
-
 ![](slicing-rotated.pdf)
 
 <!--
