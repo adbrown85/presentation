@@ -310,18 +310,6 @@ Boolean AND Node
     Vec4 min = max(e1.min, e2.min);
     Vec4 max = min(e1.max, e2.max);
 
-Boolean XOR Node
-----------------
-
- - Based on Hodgman/Sutherland line-clipping algorithm
-
-![](clipping.pdf)
-
-<!--
- - Separate function for clipping each side
- - Keep what's outside instead of inside
--->
-
 Application
 -----------
 
@@ -357,6 +345,18 @@ First Approach
 - - -
 
 ![](boolean-and-screenshot.png)
+
+Boolean XOR Node
+----------------
+
+ - Based on Hodgman/Sutherland line-clipping algorithm
+
+![](clipping.pdf)
+
+<!--
+ - Separate function for clipping each side
+ - Keep what's outside instead of inside
+-->
 
 Second Approach
 ---------------
