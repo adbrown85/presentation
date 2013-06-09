@@ -65,14 +65,7 @@ Texturing
  - Video cards are really good at this...
 -->
 
-<!--
-**Picture of 2D texture on a shape**
--->
 ![](texturing.png)
-
-<!--
-**Picture of texture coordinates**
--->
 
 Shaders
 -------
