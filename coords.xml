@@ -1,0 +1,23 @@
+<scene>
+
+  <program id="coords-program">
+    <shader type="vertex" file="coords.vert" />
+    <shader type="fragment" file="coords.frag" />
+    <attribute name="MCVertex" usage="position" />
+    <attribute name="TexCoord0" usage="texcoord0" />
+  </program>
+
+  <clear color="0 0 0 0" depth="1.0" />
+
+  <use program="coords-program">
+    <translate y="0.1" z="2">
+      <rotate axis="1 0 0" angle="20">
+        <rotate axis="0 1 0" angle="45">
+          <uniform type="mat4" name="MVPMatrix" usage="modelviewprojection" />
+          <cube />
+        </rotate>
+      </rotate>
+    </translate>
+  </use>
+
+</scene>
