@@ -106,20 +106,23 @@ Depth Buffer
 Framebuffer Objects
 --------------------------
 
- - Render to a texture
+![](fbo.png)
 
 <!--
+ - Render to a texture
  - Basis of multiple passes
  -->
 
 <!-- End list -->
 
+<!--
     uniform sampler2D Pass;
     void main() {
       ivec2 pos = ivec2(gl_FragCoord.xy);
       vec4 color = texelFetch(Pass, pos, 0);
       /* Use color... */
     }
+-->
 
 Boolean Operations
 ------------------

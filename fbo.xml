@@ -1,0 +1,45 @@
+<scene>
+
+  <program id="coords-program">
+    <shader type="vertex" file="coords.vert" />
+    <shader type="fragment" file="coords.frag" />
+    <attribute name="MCVertex" usage="position" />
+    <attribute name="TexCoord0" usage="texcoord0" />
+  </program>
+
+  <program id="texture-program">
+    <shader type="vertex" file="texture.vert" />
+    <shader type="fragment" file="texture.frag" />
+    <attribute name="MCVertex" usage="position" />
+    <attribute name="TexCoord0" usage="texcoord0" />
+  </program>
+
+  <clear color="0 0 0 0" depth="1" />
+  <cull mode="back" />
+
+  <translate x="0.05" y="0.1" z="2">
+  <rotate axis="1 0 0" angle="20">
+  <rotate axis="0 1 0" angle="-30">
+
+    <texture id="coords-texture" size="768">
+      <framebuffer>
+        <attachment type="texture" usage="color" link="coords-texture" />
+        <clear color="0.5 0.5 0.5 0" />
+        <use program="coords-program">
+          <uniform type="mat4" name="MVPMatrix" usage="modelviewprojection" />
+          <cube />
+        </use>
+      </framebuffer>
+
+      <use program="texture-program">
+        <uniform type="mat4" name="MVPMatrix" usage="modelviewprojection" />
+        <uniform type="sampler2d" name="Texture" link="coords-texture" />
+        <cube />
+      </use>
+
+    </texture>
+
+  </rotate>
+  </rotate>
+  </translate>
+</scene>
