@@ -388,17 +388,6 @@ Results
 Performance
 -----------
 
- - Frame rates of approaches about the same
-
-| Approach                  | Macbook   | Desktop |
-|:--------------------------|----------:|--------:|
-| Boolean AND with Masking  | 22        | 13      |
-| Boolean AND with XOR      | 24        | 13      |
-| Slicing (uniforms)        | 6         | 18      |
-| Slicing (attributes)      | 25        | 15      |
-
-- - -
-
 \begin{figure}
 \centering
 \begin{tikzpicture}
