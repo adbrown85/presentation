@@ -442,8 +442,11 @@ Future Work
  - Performance optimizations
  - Possibly expand to three volumes?
  - Slicing on the GPU
+
+<!--
     - Started off with this
     - Technical limitations...
+ -->
 
 Lessons
 -------
