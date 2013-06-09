@@ -297,7 +297,6 @@ RapidGL "Hello, World!"
         <shader type="fragment" file="color.frag" />
       </program>
       <use program="color-program">
-        <uniform type="mat4" name="MVPMat" usage="mvp" />
         <cube />
       </use>
     </scene>
