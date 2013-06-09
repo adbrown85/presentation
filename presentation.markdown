@@ -75,7 +75,7 @@ Texturing
 <!--
 **Picture of 2D texture on a shape**
 -->
-![](crate.png)
+![](texturing.png)
 
 <!--
 **Picture of texture coordinates**
