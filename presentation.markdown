@@ -275,14 +275,13 @@ Glycerin
 RapidGL
 -------
 
+<!--
  - Node-based render graph
  - Features
     - Lazy updates
     - Groups and instancing
     - XML (eXtensible Markup Language)
-
-RapidGL "Hello, World!"
------------------------
+-->
 
     <scene>
       <program id="color-program">
@@ -293,15 +292,6 @@ RapidGL "Hello, World!"
         <cube />
       </use>
     </scene>
-
-RapidGL Node
-------------
-
-    Node
-     # Node( id : String )
-     + preVisit( state : State& )
-     + visit( state : State& )
-     + postVisit( state : State& )
 
 Boolean AND Node
 ----------------
