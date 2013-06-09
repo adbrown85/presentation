@@ -1,7 +1,7 @@
 #version 140
 
 // Uniforms
-uniform mat4 MVPMatrix;
+uniform mat4 MVPMatrix = mat4(1);
 
 // Inputs
 in vec4 MCVertex;
