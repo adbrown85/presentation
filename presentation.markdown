@@ -376,6 +376,15 @@ Second Approach
 
 - - -
 
+    uniform sampler2D ResultsTexture;
+
+    void main() {
+      ivec2 c = ivec2(gl_FragCoord.xy);
+      FragColor = texelFetch(ResultsTexture, c, 0);
+    }
+
+- - -
+
 ![](boolean-xor-screenshot.png)
 
 Results
