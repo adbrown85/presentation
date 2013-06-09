@@ -52,7 +52,7 @@ OpenGL
 
  - OpenGL = Open Graphics Language
  - API for rendering 3D graphics
- - Faster than CPU
+ - Hardware-accelerated
 
 Featuring...
 
