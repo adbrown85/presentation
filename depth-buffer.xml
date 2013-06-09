@@ -1,0 +1,37 @@
+<scene>
+
+  <program id="depth-buffer-program">
+    <shader type="vertex" file="depth-buffer.vert" />
+    <shader type="fragment" file="depth-buffer.frag" />
+    <attribute name="MCVertex" usage="position" />
+  </program>
+
+  <clear color="0 0 0 0" depth="1" />
+  <cull mode="back" />
+  <depth function="less" />
+
+  <use program="depth-buffer-program">
+
+    <translate x="0.25" z="-0.1">
+    <rotate axis="0 1 0" angle="60">
+    <rotate axis="1 0 0" angle="30">
+
+      <!-- Red cube -->
+      <translate x="-1">
+        <uniform type="vec4" name="Color" value="1 0 0 1" />
+        <uniform type="mat4" name="MVPMatrix" usage="modelviewprojection" />
+        <cube />
+      </translate>
+
+      <!-- Green cube -->
+      <translate x="+1">
+        <uniform type="vec4" name="Color" value="0 1 0 1" />
+        <uniform type="mat4" name="MVPMatrix" usage="modelviewprojection" />
+        <cube />
+      </translate>
+
+    </rotate>
+    </rotate>
+    </translate>
+  </use>
+</scene>

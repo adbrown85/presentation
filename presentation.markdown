@@ -94,11 +94,14 @@ Demonstration...
 Depth Buffer
 ------------
 
+![](depth-buffer.png)
+<!--
  - Buffer storing depth at each pixel
  - Fragments farther back normally discarded
  - Can change behavior:
     - Function (*LESS*, *GEQUAL*, etc.)
     - Clear at any time to any value
+-->
 
 Framebuffer Objects
 --------------------------
