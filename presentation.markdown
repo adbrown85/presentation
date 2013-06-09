@@ -404,6 +404,28 @@ Performance
 | Slicing (uniforms)        | 6         | 18      |
 | Slicing (attributes)      | 25        | 15      |
 
+- - -
+
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\begin{axis}[
+    xbar,
+    xmin=0,
+    xlabel=Frames Per Second,
+    symbolic y coords={ Slicing with Attributes, Slicing with Uniforms, Boolean XOR, Boolean AND},
+    ytick=data
+]
+\addplot coordinates {
+    (25,Slicing with Attributes)
+    (6,Slicing with Uniforms)
+    (24,Boolean XOR)
+    (24,Boolean AND)
+};
+\end{axis}
+\end{tikzpicture}
+\end{figure}
+
 Quality
 -------
 
