@@ -26,13 +26,17 @@ Background
 Volume
 ------
 
+<!--
  - Three-dimensional image
  - Instead of pixels, _voxels_
  - MRI, CT scans
+ -->
 
-**Picture of three-dimensional grid**
+![](representations.pdf)
 
+<!--
 How do you render?
+-->
 
 Ray-Casting
 -----------
