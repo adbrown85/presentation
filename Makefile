@@ -1,6 +1,6 @@
 INPUT   := presentation.markdown
 OUTPUT  := presentation.pdf
-FLAGS   := -t beamer
+FLAGS   := -t beamer --template template.tex
 
 all: $(OUTPUT)
 $(OUTPUT): $(INPUT)
