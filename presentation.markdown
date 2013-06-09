@@ -299,6 +299,11 @@ RapidGL
       </use>
     </scene>
 
+Application
+-----------
+
+    gander <file.xml>
+
 Boolean AND Node
 ----------------
 
@@ -309,11 +314,6 @@ Boolean AND Node
     // Take intersection
     Vec4 min = max(e1.min, e2.min);
     Vec4 max = min(e1.max, e2.max);
-
-Application
------------
-
-    gander <file.xml>
 
 First Approach
 --------------
