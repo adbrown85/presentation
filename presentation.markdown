@@ -3,14 +3,6 @@
   Rochester Institute of Technology
 % June 13, 2013
 
-About Me
---------
-
- - BFA in Applied Media Arts
- - AS in Computer Science
- - Started Master's in 2007
- - Currently work at AFRL in Rome, NY
-
 Overview
 --------
 
