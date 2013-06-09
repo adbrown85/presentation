@@ -399,6 +399,10 @@ Second Approach
       </use>
     </framebuffer>
 
+- - -
+
+![](boolean-xor-screenshot.png)
+
 Results
 =======
 
