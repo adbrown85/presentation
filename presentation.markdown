@@ -409,20 +409,33 @@ Performance
 \begin{figure}
 \centering
 \begin{tikzpicture}
-\begin{axis}[
+\begin{semilogxaxis}[
     xbar,
     xmin=0,
     xlabel=Frames Per Second,
+    enlarge y limits=0.2,
     symbolic y coords={ Slicing with Attributes, Slicing with Uniforms, Boolean XOR, Boolean AND},
     ytick=data
 ]
+\addplot coordinates {
+    (172,Slicing with Attributes)
+    (130,Slicing with Uniforms)
+    (76,Boolean XOR)
+    (51,Boolean AND)
+};
 \addplot coordinates {
     (25,Slicing with Attributes)
     (6,Slicing with Uniforms)
     (24,Boolean XOR)
     (24,Boolean AND)
 };
-\end{axis}
+\addplot coordinates {
+    (15,Slicing with Attributes)
+    (18,Slicing with Uniforms)
+    (13,Boolean XOR)
+    (10,Boolean AND)
+};
+\end{semilogxaxis}
 \end{tikzpicture}
 \end{figure}
 
