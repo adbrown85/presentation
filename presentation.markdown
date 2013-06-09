@@ -1,6 +1,7 @@
 % Hardware-Accelerated Rendering of Intersecting Volumes using Boolean Operations
 % Andrew Brown \
   Rochester Institute of Technology
+% June 13, 2013
 
 About Me
 --------
