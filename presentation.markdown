@@ -106,11 +106,6 @@ Demonstration...
 
 <!-- Fragment approximates pixel... -->
 
-Boolean Operations
-------------------
-
-![](venn.pdf)
-
 Depth Buffer
 ------------
 
@@ -137,6 +132,11 @@ Framebuffer Objects
       vec4 color = texelFetch(Pass, pos, 0);
       /* Use color... */
     }
+
+Boolean Operations
+------------------
+
+![](venn.pdf)
 
 Previous Work
 =============
