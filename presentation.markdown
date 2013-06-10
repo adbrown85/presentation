@@ -43,6 +43,16 @@ Intersecting Volumes
 ![](intersecting-volumes.pdf)
 
 <!--
+For simple cases...
+
+ - Can we make it easier to implement?
+    - May be able to use existing libraries...
+
+ - Is it possible to get any faster?
+    - Don't have to regenerate geometry every frame...
+-->
+
+<!--
 What has been done so far...
 -->
 
@@ -201,17 +211,6 @@ Other Methods
 
 Approaches
 ==========
-
-Motivation
-----------
-
-For simple cases...
-
- - Can we make it easier to implement?
-    - May be able to use existing libraries...
-
- - Is it possible to get any faster?
-    - Don't have to regenerate geometry every frame...
 
 Basis
 -----
