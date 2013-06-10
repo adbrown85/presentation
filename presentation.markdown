@@ -209,8 +209,8 @@ Other Methods
  - Dynamic Shader Generation
  - GPGPU (General-Purpose Graphics Processing Unit)
 
-Approaches
-==========
+First Approach
+==============
 
 Boolean AND with Depth-Buffer Masking
 -------------------------------------
@@ -257,6 +257,9 @@ Boolean AND Node
 - - -
 
 ![](boolean-and-screenshot.png)
+
+Second Approach
+===============
 
 Boolean AND with Boolean XOR
 ----------------------------
