@@ -504,8 +504,8 @@ Workstation with Varying Sample Rates
 Evaluation
 ----------
 
- - First approach can be done with existing components
- - Second approach requires less passes
+ - Depth-masking approach can be done with existing components
+ - Boolean XOR approach requires less passes
  - Both approaches require a lot of context-switching
  - Both approaches fragment-bound
 
