@@ -315,6 +315,10 @@ Screenshot
 Perspective
 -----------
 
+![](boolean-xor-problem.png)
+
+- - -
+
 ![](pieces-in-perspective.pdf)
 
 Results
