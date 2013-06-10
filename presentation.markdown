@@ -330,8 +330,8 @@ Implementation
  - C++
  - OpenGL 3 core profile
 
-Performance
------------
+Frame Rates of Approaches
+-------------------------
 
 \begin{figure}
 \centering
