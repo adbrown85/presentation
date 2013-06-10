@@ -212,13 +212,6 @@ Other Methods
 Approaches
 ==========
 
-Basis
------
-
- 1. Render behind intersection
- 2. Render intersection
- 3. Render in front of intersection
-
 Boolean AND with Depth-Buffer Masking
 -------------------------------------
 
