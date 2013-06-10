@@ -312,6 +312,11 @@ Screenshot
 
 ![](boolean-xor-screenshot.png)
 
+Perspective
+-----------
+
+![](pieces-in-perspective.pdf)
+
 Results
 =======
 
@@ -356,13 +361,6 @@ Performance
 \end{semilogxaxis}
 \end{tikzpicture}
 \end{figure}
-
-Quality
--------
-
- - Boolean XOR has problems with certain angles
-
-![](pieces-in-perspective.pdf)
 
 Evaluation
 ----------
