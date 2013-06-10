@@ -366,6 +366,141 @@ Performance
 \end{tikzpicture}
 \end{figure}
 
+Macbook with Varying Sample Rates
+---------------------------------
+
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\begin{axis}[
+    xlabel=Samples,
+    ylabel=Frames Per Second]
+\addplot coordinates {
+  (100, 20)
+  (200, 10)
+  (300, 6)
+  (400, 4)
+  (500, 4)
+};
+\addlegendentry{Depth-masking}
+\addplot coordinates {
+  (100, 20)
+  (200, 10)
+  (300, 7)
+  (400, 5)
+  (500, 4)
+};
+\addlegendentry{Boolean XOR}
+\addplot coordinates {
+  (100, 6)
+  (200, 3)
+  (300, 2)
+  (400, 1)
+  (500, 1)
+};
+\addlegendentry{Slicing (uniforms)}
+\addplot coordinates {
+  (100, 22)
+  (200, 10)
+  (300, 7)
+  (400, 5)
+  (500, 4)
+};
+\addlegendentry{Slicing (attributes)}
+\end{axis}
+\end{tikzpicture}
+\end{figure}
+
+Desktop with Varying Sample Rates
+---------------------------------
+
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\begin{axis}[
+    xlabel=Samples,
+    ylabel=Frames Per Second]
+\addplot coordinates {
+  (100, 10)
+  (200, 6)
+  (300, 4)
+  (400, 3)
+  (500, 2)
+};
+\addlegendentry{Depth-masking}
+\addplot coordinates {
+  (100, 13)
+  (200, 7)
+  (300, 5)
+  (400, 4)
+  (500, 3)
+};
+\addlegendentry{Boolean XOR}
+\addplot coordinates {
+  (100, 18)
+  (200, 9)
+  (300, 6)
+  (400, 5)
+  (500, 4)
+};
+\addlegendentry{Slicing (uniforms)}
+\addplot coordinates {
+  (100, 15)
+  (200, 8)
+  (300, 5)
+  (400, 4)
+  (500, 3)
+};
+\addlegendentry{Slicing (attributes)}
+\end{axis}
+\end{tikzpicture}
+\end{figure}
+
+Workstation with Varying Sample Rates
+-------------------------------------
+
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\begin{axis}[
+    xlabel=Samples,
+    ylabel=Frames Per Second]
+\addplot coordinates {
+  (100, 51)
+  (200, 28)
+  (300, 19)
+  (400, 14)
+  (500, 11)
+};
+\addlegendentry{Depth-masking}
+\addplot coordinates {
+  (100, 76)
+  (200, 39)
+  (300, 27)
+  (400, 23)
+  (500, 17)
+};
+\addlegendentry{Boolean XOR}
+\addplot coordinates {
+  (100, 130)
+  (200, 68)
+  (300, 46)
+  (400, 36)
+  (500, 29)
+};
+\addlegendentry{Slicing (uniforms)}
+\addplot coordinates {
+  (100, 172)
+  (200, 89)
+  (300, 60)
+  (400, 46)
+  (500, 38)
+};
+\addlegendentry{Slicing (attributes)}
+\end{axis}
+\end{tikzpicture}
+\end{figure}
+
 Evaluation
 ----------
 
