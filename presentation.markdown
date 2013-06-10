@@ -256,8 +256,8 @@ Drawing the Pieces
       </use>
     </framebuffer>
 
-GLSL
-----
+Compositing Pass
+----------------
 
     uniform sampler2D ResultsTexture;
 
