@@ -228,8 +228,7 @@ Boolean AND Node
     Vec4 min = max(e1.min, e2.min);
     Vec4 max = min(e1.max, e2.max);
 
-First Approach
---------------
+- - -
 
     <cull faces="front" />
     <!-- Store texture coords of first cube -->
@@ -276,8 +275,7 @@ Boolean XOR Node
  - Keep what's outside instead of inside
 -->
 
-Second Approach
----------------
+- - -
 
     <cull faces="front" />
     <!-- Store texture coords -->
