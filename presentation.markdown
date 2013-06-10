@@ -212,58 +212,6 @@ Other Methods
 First Approach
 ==============
 
-Boolean AND with Depth-Buffer Masking
--------------------------------------
-
-![](boolean-and.pdf)
-
-Boolean AND Node
-----------------
-
-    // Find extents of cubes in world space
-    Extent e1 = findExtent(c1);
-    Extent e2 = findExtent(c2);
-
-    // Take intersection
-    Vec4 min = max(e1.min, e2.min);
-    Vec4 max = min(e1.max, e2.max);
-
-OpenGL
-------
-
-    <cull faces="front" />
-    <!-- Store texture coords of first cube -->
-    <!-- Store texture coords of second cube -->
-    <framebuffer>
-      <attachment usage="color" link="results-texture" />
-      <use program="third-pass-program">
-        <cull faces="back" />
-        <!-- Assign uniform variables -->
-        <booleanAnd of="c1 c2" />
-      </use>
-    </framebuffer>
-
-GLSL
-----
-
-    void main() {
-
-      ivec2 pos = ivec2(gl_FragCoord.xy);
-      FragColor = texelFetch(Results, pos, 0);
-
-      // Form ray and sample volume...
-
-      gl_FragDepth = 0.0;
-    }
-
-Screenshot
-----------
-
-![](boolean-and-screenshot.png)
-
-Second Approach
-===============
-
 Boolean AND with Boolean XOR
 ----------------------------
 
@@ -321,6 +269,58 @@ Perspective
 
 ![](pieces-in-perspective.pdf)
 
+Second Approach
+===============
+
+Boolean AND with Depth-Buffer Masking
+-------------------------------------
+
+![](boolean-and.pdf)
+
+Boolean AND Node
+----------------
+
+    // Find extents of cubes in world space
+    Extent e1 = findExtent(c1);
+    Extent e2 = findExtent(c2);
+
+    // Take intersection
+    Vec4 min = max(e1.min, e2.min);
+    Vec4 max = min(e1.max, e2.max);
+
+OpenGL
+------
+
+    <cull faces="front" />
+    <!-- Store texture coords of first cube -->
+    <!-- Store texture coords of second cube -->
+    <framebuffer>
+      <attachment usage="color" link="results-texture" />
+      <use program="third-pass-program">
+        <cull faces="back" />
+        <!-- Assign uniform variables -->
+        <booleanAnd of="c1 c2" />
+      </use>
+    </framebuffer>
+
+GLSL
+----
+
+    void main() {
+
+      ivec2 pos = ivec2(gl_FragCoord.xy);
+      FragColor = texelFetch(Results, pos, 0);
+
+      // Form ray and sample volume...
+
+      gl_FragDepth = 0.0;
+    }
+
+Screenshot
+----------
+
+![](boolean-and-screenshot.png)
+
 Results
 =======
 
@@ -341,26 +341,26 @@ Frame Rates of Approaches
     xmin=0,
     xlabel=Frames Per Second,
     enlarge y limits=0.2,
-    symbolic y coords={ Slicing with Attributes, Slicing with Uniforms, Boolean XOR, Boolean AND},
+    symbolic y coords={ Slicing with Attributes, Slicing with Uniforms, Boolean AND, Boolean XOR},
     ytick=data
 ]
 \addplot coordinates {
     (172,Slicing with Attributes)
     (130,Slicing with Uniforms)
-    (76,Boolean XOR)
     (51,Boolean AND)
+    (76,Boolean XOR)
 };
 \addplot coordinates {
     (25,Slicing with Attributes)
     (6,Slicing with Uniforms)
-    (24,Boolean XOR)
     (24,Boolean AND)
+    (24,Boolean XOR)
 };
 \addplot coordinates {
     (15,Slicing with Attributes)
     (18,Slicing with Uniforms)
-    (13,Boolean XOR)
     (10,Boolean AND)
+    (13,Boolean XOR)
 };
 \end{semilogxaxis}
 \end{tikzpicture}
@@ -378,19 +378,19 @@ Macbook with Varying Sample Rates
 \addplot coordinates {
   (100, 20)
   (200, 10)
-  (300, 6)
-  (400, 4)
-  (500, 4)
-};
-\addlegendentry{Depth-masking}
-\addplot coordinates {
-  (100, 20)
-  (200, 10)
   (300, 7)
   (400, 5)
   (500, 4)
 };
 \addlegendentry{Boolean XOR}
+\addplot coordinates {
+  (100, 20)
+  (200, 10)
+  (300, 6)
+  (400, 4)
+  (500, 4)
+};
+\addlegendentry{Depth-masking}
 \addplot coordinates {
   (100, 6)
   (200, 3)
@@ -421,14 +421,6 @@ Desktop with Varying Sample Rates
     xlabel=Samples,
     ylabel=Frames Per Second]
 \addplot coordinates {
-  (100, 10)
-  (200, 6)
-  (300, 4)
-  (400, 3)
-  (500, 2)
-};
-\addlegendentry{Depth-masking}
-\addplot coordinates {
   (100, 13)
   (200, 7)
   (300, 5)
@@ -436,6 +428,14 @@ Desktop with Varying Sample Rates
   (500, 3)
 };
 \addlegendentry{Boolean XOR}
+\addplot coordinates {
+  (100, 10)
+  (200, 6)
+  (300, 4)
+  (400, 3)
+  (500, 2)
+};
+\addlegendentry{Depth-masking}
 \addplot coordinates {
   (100, 18)
   (200, 9)
@@ -466,14 +466,6 @@ Workstation with Varying Sample Rates
     xlabel=Samples,
     ylabel=Frames Per Second]
 \addplot coordinates {
-  (100, 51)
-  (200, 28)
-  (300, 19)
-  (400, 14)
-  (500, 11)
-};
-\addlegendentry{Depth-masking}
-\addplot coordinates {
   (100, 76)
   (200, 39)
   (300, 27)
@@ -481,6 +473,14 @@ Workstation with Varying Sample Rates
   (500, 17)
 };
 \addlegendentry{Boolean XOR}
+\addplot coordinates {
+  (100, 51)
+  (200, 28)
+  (300, 19)
+  (400, 14)
+  (500, 11)
+};
+\addlegendentry{Depth-masking}
 \addplot coordinates {
   (100, 130)
   (200, 68)
