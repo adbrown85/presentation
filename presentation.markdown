@@ -271,8 +271,8 @@ Screenshot
 
 ![](boolean-xor-screenshot.png)
 
-Perspective
------------
+Problem with Perspective
+------------------------
 
 ![](boolean-xor-problem.png)
 
