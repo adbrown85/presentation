@@ -240,8 +240,8 @@ Boolean XOR Node
  - Keep what's outside instead of inside
 -->
 
-OpenGL
-------
+Drawing the Pieces
+------------------
 
     <cull faces="front" />
     <!-- Store texture coords -->
