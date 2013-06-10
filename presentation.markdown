@@ -32,6 +32,21 @@ Volume
 How do you render?
 -->
 
+Rendering Intersecting Volumes
+------------------------------
+
+<!--
+ - Why is it hard?
+    - Need to paint back-to-front
+    - Need to properly blend each sample
+ -->
+
+![](intersecting-volumes.pdf)
+
+<!--
+What has been done so far...
+-->
+
 Boolean Operations
 ------------------
 
@@ -168,21 +183,6 @@ Second Pass of Kruger Method
 - - -
 
 ![](kruger.png)
-
-Rendering Intersecting Volumes
-------------------------------
-
-<!--
- - Why is it hard?
-    - Need to paint back-to-front
-    - Need to properly blend each sample
- -->
-
-![](intersecting-volumes.pdf)
-
-<!--
-What has been done so far...
--->
 
 Slicing Method
 --------------
