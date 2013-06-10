@@ -17,9 +17,6 @@ Overview
 Introduction
 ============
 
-Background
-==========
-
 Volume
 ------
 
@@ -34,6 +31,9 @@ Volume
 <!--
 How do you render?
 -->
+
+Background
+==========
 
 OpenGL
 ------
