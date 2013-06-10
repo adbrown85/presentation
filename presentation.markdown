@@ -225,11 +225,6 @@ Boolean AND with Depth-Buffer Masking
 
 ![](boolean-and.pdf)
 
-Boolean AND with Boolean XOR
-----------------------------
-
-![](boolean-xor.pdf)
-
 Boolean AND Node
 ----------------
 
@@ -271,6 +266,11 @@ First Approach
 - - -
 
 ![](boolean-and-screenshot.png)
+
+Boolean AND with Boolean XOR
+----------------------------
+
+![](boolean-xor.pdf)
 
 Boolean XOR Node
 ----------------
