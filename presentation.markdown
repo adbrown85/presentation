@@ -10,7 +10,6 @@ Overview
  - Background
  - Previous Work
  - Approaches
- - Implementation
  - Results
  - Conclusion
 
@@ -231,83 +230,6 @@ Boolean AND with Boolean XOR
 
 ![](boolean-xor.pdf)
 
-Implementation
-==============
-
-Basics
-------
-
- - C++
- - OpenGL 3 core profile
-
-Libraries
----------
-
- - M3d
- - Gloop
- - Glycerin
- - RapidGL
-
-M3d
----
-
- - Structures for 3D math
-    - `Vec3`, `Vec4`
-    - `Mat3`, `Mat4`
-    - `Quat`
- - _glm_
-
-Gloop
------
-
- - Light-weight OpenGL wrapper
- - C++
- - Assertions
-
-<!-- end list -->
-
-    Shader s = Shader::create(GL_FRAGMENT_SHADER);
-    s.source("...");
-    s.compile();
-    if (!s.compiled()) {
-       std::cerr << s.log() << std::endl;
-    }
-
-Glycerin
---------
-
- - OpenGL utilities
-    - `Projection`
-    - `BufferLayout`
-    - `Volume`
-    - `TextRenderer`
-
-RapidGL
--------
-
-<!--
- - Node-based render graph
- - Features
-    - Lazy updates
-    - Groups and instancing
-    - XML (eXtensible Markup Language)
--->
-
-    <scene>
-      <program id="color-program">
-        <shader type="vertex" file="color.vert" />
-        <shader type="fragment" file="color.frag" />
-      </program>
-      <use program="color-program">
-        <cube />
-      </use>
-    </scene>
-
-Application
------------
-
-    gander <file.xml>
-
 Boolean AND Node
 ----------------
 
@@ -393,6 +315,12 @@ Second Approach
 
 Results
 =======
+
+Implementation
+--------------
+
+ - C++
+ - OpenGL 3 core profile
 
 Performance
 -----------
