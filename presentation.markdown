@@ -228,7 +228,8 @@ Boolean AND Node
     Vec4 min = max(e1.min, e2.min);
     Vec4 max = min(e1.max, e2.max);
 
-- - -
+OpenGL
+------
 
     <cull faces="front" />
     <!-- Store texture coords of first cube -->
@@ -242,7 +243,8 @@ Boolean AND Node
       </use>
     </framebuffer>
 
-- - -
+GLSL
+----
 
     void main() {
 
@@ -254,7 +256,8 @@ Boolean AND Node
       gl_FragDepth = 0.0;
     }
 
-- - -
+Screenshot
+----------
 
 ![](boolean-and-screenshot.png)
 
@@ -278,7 +281,8 @@ Boolean XOR Node
  - Keep what's outside instead of inside
 -->
 
-- - -
+OpenGL
+------
 
     <cull faces="front" />
     <!-- Store texture coords -->
@@ -293,7 +297,8 @@ Boolean XOR Node
       </use>
     </framebuffer>
 
-- - -
+GLSL
+----
 
     uniform sampler2D ResultsTexture;
 
@@ -302,7 +307,8 @@ Boolean XOR Node
       FragColor = texelFetch(ResultsTexture, c, 0);
     }
 
-- - -
+Screenshot
+----------
 
 ![](boolean-xor-screenshot.png)
 
