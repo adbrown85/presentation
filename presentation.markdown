@@ -217,6 +217,17 @@ Boolean AND with Boolean XOR
 
 ![](boolean-xor.pdf)
 
+Boolean AND Node
+----------------
+
+    // Find extents of cubes in world space
+    Extent e1 = findExtent(c1);
+    Extent e2 = findExtent(c2);
+
+    // Take intersection
+    Vec4 min = max(e1.min, e2.min);
+    Vec4 max = min(e1.max, e2.max);
+
 Boolean XOR Node
 ----------------
 
@@ -276,17 +287,6 @@ Boolean AND with Depth-Buffer Masking
 -------------------------------------
 
 ![](boolean-and.pdf)
-
-Boolean AND Node
-----------------
-
-    // Find extents of cubes in world space
-    Extent e1 = findExtent(c1);
-    Extent e2 = findExtent(c2);
-
-    // Take intersection
-    Vec4 min = max(e1.min, e2.min);
-    Vec4 max = min(e1.max, e2.max);
 
 OpenGL
 ------
