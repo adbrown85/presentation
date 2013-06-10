@@ -31,8 +31,8 @@ Volume
 How do you render?
 -->
 
-Rendering Intersecting Volumes
-------------------------------
+Intersecting Volumes
+--------------------
 
 <!--
  - Why is it hard?
