@@ -32,6 +32,11 @@ Volume
 How do you render?
 -->
 
+Boolean Operations
+------------------
+
+![](venn.pdf)
+
 Background
 ==========
 
@@ -111,11 +116,6 @@ Framebuffer Objects
       /* Use color... */
     }
 -->
-
-Boolean Operations
-------------------
-
-![](venn.pdf)
 
 Previous Work
 =============
