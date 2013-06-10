@@ -31,22 +31,6 @@ Volume
 How do you render?
 -->
 
-Ray-Casting
------------
-
-![](traditional-ray-casting.pdf)
-
-<!-- Maybe improve this by coloring pixels -->
-
-<!--
- - Ray = origin + direction
- - Process
-    - Cast ray through volume
-    - Sample along ray
-
-Slow on the CPU...
- -->
-
 OpenGL
 ------
 
@@ -131,6 +115,22 @@ Boolean Operations
 
 Previous Work
 =============
+
+Ray-Casting
+-----------
+
+![](traditional-ray-casting.pdf)
+
+<!-- Maybe improve this by coloring pixels -->
+
+<!--
+ - Ray = origin + direction
+ - Process
+    - Cast ray through volume
+    - Sample along ray
+
+Slow on the CPU...
+ -->
 
 Kruger Method
 -------------
