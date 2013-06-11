@@ -421,21 +421,11 @@ actually want to keep them...
  - Keep what's outside instead of inside
 -->
 
-Drawing the Pieces
-------------------
+Drawing Multiple Pieces at Once
+-------------------------------
 
-    <cull faces="front" />
-    <!-- Store texture coords -->
-    <framebuffer>
-      <attachment usage="color" link="results-texture" />
-      <attachment usage="depth" link="depth-renderbuffer" />
-      <depth function="less" />
-      <cull faces="back" />
-      <use program="third-pass-program">
-        <!-- Assign uniform variables -->
-        <booleanXor of="c1 c2" hide="c2" filter="less" />
-      </use>
-    </framebuffer>
+    <attachment usage="depth" link="depth-renderbuffer" />
+    <depth function="greater" />
 
 <!--
 
