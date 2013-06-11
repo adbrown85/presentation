@@ -598,22 +598,10 @@ Frame Rates of Approaches
     ytick=data
 ]
 \addplot coordinates {
-    (172,Slicing with Attributes)
-    (130,Slicing with Uniforms)
-    (51,Boolean AND)
-    (76,Boolean XOR)
-};
-\addplot coordinates {
     (25,Slicing with Attributes)
     (6,Slicing with Uniforms)
     (24,Boolean AND)
     (24,Boolean XOR)
-};
-\addplot coordinates {
-    (15,Slicing with Attributes)
-    (18,Slicing with Uniforms)
-    (10,Boolean AND)
-    (13,Boolean XOR)
 };
 \end{semilogxaxis}
 \end{tikzpicture}
