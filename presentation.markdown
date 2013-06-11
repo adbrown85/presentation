@@ -804,8 +804,6 @@ Conclusion
 Future Work
 -----------
 
- - Break up Boolean XOR more?
- - Performance optimizations
  - Possibly expand to three volumes?
  - Slicing on the GPU
 
