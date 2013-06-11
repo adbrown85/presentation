@@ -589,7 +589,7 @@ Frame Rates of Approaches
 \begin{figure}
 \centering
 \begin{tikzpicture}
-\begin{semilogxaxis}[
+\begin{axis}[
     xbar,
     xmin=0,
     xlabel=Frames Per Second,
@@ -603,7 +603,7 @@ Frame Rates of Approaches
     (24,Boolean AND)
     (24,Boolean XOR)
 };
-\end{semilogxaxis}
+\end{axis}
 \end{tikzpicture}
 \end{figure}
 
