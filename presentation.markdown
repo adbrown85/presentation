@@ -778,10 +778,10 @@ Workstation with Varying Sample Rates
 Evaluation
 ----------
 
- - Depth-masking approach can be done with existing components
- - Boolean XOR approach requires less passes
- - Both approaches require a lot of context-switching
- - Both approaches fragment-bound
+ - No faster than slicing method
+ - Boolean approaches require a lot of passes
+ - Optimized slicing has good balance between CPU/GPU
+ - Everything is fragment-bound
 
 <!--
 
