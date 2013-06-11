@@ -805,7 +805,7 @@ Future Work
 -----------
 
  - Possibly expand to three volumes?
- - Slicing on the GPU
+ - Hybrid method using multiple Framebuffer attachments
 
 <!--
 
