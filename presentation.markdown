@@ -19,30 +19,28 @@ Introduction
 Volume
 ------
 
-<!--
- - Three-dimensional image
- - Instead of pixels, _voxels_
- - MRI, CT scans
- -->
-
 ![](representations.pdf)
 
 <!--
+
+ - Three-dimensional image
+ - Instead of pixels, _voxels_
+ - MRI, CT scans
+
 How do you render?
 -->
 
 Intersecting Volumes
 --------------------
 
-<!--
- - Why is it hard?
-    - Need to paint back-to-front
-    - Need to properly blend each sample
- -->
-
 ![](intersecting-volumes.pdf)
 
 <!--
+
+Why is it hard?
+ - Need to paint back-to-front
+ - Need to properly blend each sample
+
 For simple cases...
 
  - Can we make it easier to implement?
@@ -50,9 +48,7 @@ For simple cases...
 
  - Is it possible to get any faster?
     - Don't have to regenerate geometry every frame...
--->
 
-<!--
 What has been done so far...
 -->
 
@@ -76,16 +72,18 @@ Featuring...
 Texturing
 ---------
 
+![](texturing.png)
+
 <!--
  - What is a texture?
  - Texture coordinates
  - Video cards are really good at this...
 -->
 
-![](texturing.png)
-
 Shaders
 -------
+
+![](xmas.png)
 
 <!--
     in vec3 Coord0;
@@ -98,20 +96,17 @@ Shaders
             FragColor = vec4(0, 1, 0, 1);
         }
     }
--->
 
-![](xmas.png)
-
-<!--
 Demonstration...
--->
 
-<!-- Fragment approximates pixel... -->
+Fragment approximates pixel...
+-->
 
 Depth Buffer
 ------------
 
 ![](depth-buffer.png)
+
 <!--
  - Buffer storing depth at each pixel
  - Fragments farther back normally discarded
@@ -128,11 +123,7 @@ Framebuffer Objects
 <!--
  - Render to a texture
  - Basis of multiple passes
- -->
 
-<!-- End list -->
-
-<!--
     uniform sampler2D Pass;
     void main() {
       ivec2 pos = ivec2(gl_FragCoord.xy);
@@ -149,8 +140,6 @@ Ray-Casting
 
 ![](traditional-ray-casting.pdf)
 
-<!-- Maybe improve this by coloring pixels -->
-
 <!--
  - Ray = origin + direction
  - Process
@@ -158,14 +147,12 @@ Ray-Casting
     - Sample along ray
 
 Slow on the CPU...
- -->
+-->
 
 Kruger Method
 -------------
 
 ![](fragment-ray-casting.pdf)
-
-<!-- Improve this by adding red dots where they exit... -->
 
 First Pass of Kruger Method
 ---------------------------
