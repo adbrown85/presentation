@@ -634,8 +634,8 @@ to see what would happen as the number of samples increases...
 
 -->
 
-Macbook with Varying Sample Rates
----------------------------------
+Varying Sample Rates
+--------------------
 
 \begin{figure}
 \centering
