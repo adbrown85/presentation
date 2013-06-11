@@ -521,8 +521,8 @@ it processes it.
 
 -->
 
-OpenGL
-------
+Using Back Faces as Front Faces
+-------------------------------
 
     <!-- Draw back faces of cube into texture -->
     <cull faces="front"
@@ -546,8 +546,8 @@ make sure we use the intersection faces to render...
 
 -->
 
-GLSL
-----
+Depth Assignment
+----------------
 
     gl_FragDepth = 0.0;
 
