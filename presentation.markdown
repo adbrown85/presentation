@@ -549,15 +549,7 @@ make sure we use the intersection faces to render...
 GLSL
 ----
 
-    void main() {
-
-      ivec2 pos = ivec2(gl_FragCoord.xy);
-      FragColor = texelFetch(Results, pos, 0);
-
-      // Form ray and sample volume...
-
-      gl_FragDepth = 0.0;
-    }
+    gl_FragDepth = 0.0;
 
 <!--
 
