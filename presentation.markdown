@@ -827,9 +827,8 @@ Plus I could see using the new geometry and tesselation shaders in OpenGL 3 and
 Lessons
 -------
 
- - OpenGL 3
-    - Pixel-space functions
- - C++ libraries
+ - OpenGL 3 / GLSL
+ - Libraries
  - Tools
 
 <!--
