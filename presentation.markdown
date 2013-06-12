@@ -622,9 +622,7 @@ Plus I could see using the new geometry and tesselation shaders in OpenGL 3 and
 Lessons
 -------
 
- - OpenGL 3 / GLSL
- - Libraries
- - Tools
+ - Pixel-space functions
 
 <!--
 
