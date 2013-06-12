@@ -448,14 +448,6 @@ Yet another problem with this approach pops up with certain angles.  What
 happends is that when in perspective pieces that have the same depth may
 actually be overlapped...
 
--->
-
-- - -
-
-![](pieces-in-perspective.pdf)
-
-<!--
-
 For example, both the blue and the red piece have the same depth, but part of
 the blue one actually ends up behind the red one on screen.  If the blue one is
 drawn second it won't draw correctly.
