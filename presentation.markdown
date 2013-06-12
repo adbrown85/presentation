@@ -351,24 +351,6 @@ every frame even if the volumes themselves didn't move.
  - Tricky to implement
 -->
 
-Other Methods
--------------------------
-
- - Dynamic Shader Generation
- - GPGPU (General-Purpose Graphics Processing Unit)
-
-<!--
-
-Aren't necessarily bad, this is probably where the future is, but they start to
-get pretty difficult to actually implement.  In the first case it's more for
-static scenes.  In the second case it's not necessarily bad, this is probably
-where the future is, but you're looking at general-purpose APIs that aren't
-really set up to do graphics.  It may take awhile to just get anything up on the
-screen, let alone volumes.  May not fit into your application, just impractical
-to do in the real-world.
-
--->
-
 First Approach
 ==============
 
