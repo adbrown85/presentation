@@ -744,13 +744,6 @@ Advice
  - Start work on libraries in classes *
  - Limit scope of project
 
-Availability
-------------
-
- - Source code on [GitHub](http://www.github.com/adbrown85)
- - Linux and Mac OS X (Lion or Mountain Lion)
- - Under open-source licenses
-
 Thanks
 ------
 
