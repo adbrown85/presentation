@@ -486,27 +486,6 @@ fragments, they won't be processed because of early Z-kill.  Basically as long
 as you don't change the depth of a fragment, OpenGL will check its depth before
 it processes it.
 
--->
-
-Using Back Faces as Front Faces
--------------------------------
-
-    <!-- Draw back faces of cube into texture -->
-    <cull faces="front"
-    <framebuffer>
-      <attachment usage="color" link="back-faces-texture" />
-      <use program="coords-program">
-        <instance of="c1" />
-      </use>
-    </framebuffer>
-
-    <!-- Draw back faces of intersection -->
-    <use program="volume-program">
-      <booleanAnd of="c1 c2" />
-    </use>
-
-<!--
-
 Another thing to note is that we could mask off the depth buffer before we
 render to keep it from drawing anything in the *yellow*, but instead we just
 make sure we use the intersection faces to render...
