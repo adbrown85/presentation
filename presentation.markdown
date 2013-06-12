@@ -403,15 +403,12 @@ actually want to keep them...
  - Keep what's outside instead of inside
 -->
 
-Compositing Pass
-----------------
+Multiple Passes
+---------------
 
-    uniform sampler2D ResultsTexture;
+    uniform sampler2D Texture;
 
-    void main() {
-      ivec2 c = ivec2(gl_FragCoord.xy);
-      FragColor = texelFetch(ResultsTexture, c, 0);
-    }
+    FragColor = texelFetch(Texture, gl_FragCoord.xy);
 
 <!--
 
