@@ -351,8 +351,8 @@ Second Pass of Kruger Method
 
 ![](kruger.png)
 
-First Approach
-==============
+Approaches
+==========
 
 Boolean AND with Boolean XOR
 ----------------------------
@@ -453,9 +453,6 @@ This is a limitation with depth-based approaches.  Would like to look at using
 the distance to the camera instead...
 
 -->
-
-Second Approach
-===============
 
 Boolean AND with Depth-Buffer Masking
 -------------------------------------
