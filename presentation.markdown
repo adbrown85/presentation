@@ -354,13 +354,8 @@ intersection, then the pieces in front of the intersection.
 Boolean AND
 -----------
 
-    // Find extents of cubes in world space
-    Extent e1 = findExtent(c1);
-    Extent e2 = findExtent(c2);
-
-    // Take intersection
-    Vec4 min = max(e1.min, e2.min);
-    Vec4 max = min(e1.max, e2.max);
+    Vec4 min = max(c1.min, c2.min);
+    Vec4 max = min(c1.max, c2.max);
 
 <!--
 
