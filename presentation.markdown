@@ -385,8 +385,8 @@ intersection, then the pieces in front of the intersection.
 
 -->
 
-Boolean AND Node
-----------------
+Boolean AND
+-----------
 
     // Find extents of cubes in world space
     Extent e1 = findExtent(c1);
@@ -404,8 +404,8 @@ take the maximum of the minimum corners, and the minimum of the maximum corners.
 
 -->
 
-Boolean XOR Node
-----------------
+Boolean XOR
+-----------
 
  - Based on Hodgman/Sutherland line-clipping algorithm
 
