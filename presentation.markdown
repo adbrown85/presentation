@@ -265,6 +265,26 @@ pass at the same pixel location.
 Previous Work
 =============
 
+Slicing Method
+--------------
+
+![](slicing-rotated.pdf)
+
+<!--
+
+With the slicing method, you sample the volume by generating geometry at regular
+intervals through it.  Then blend the geometry together.
+
+The nice thing about the slicing method is that it will handle intersecting
+volumes as long as you sort the geometry first.
+
+The bad thing is as I said before that's a lot of geometry and you have to do it
+every frame even if the volumes themselves didn't move.
+
+ - A lot of geometry
+ - Tricky to implement
+-->
+
 Ray-Casting
 -----------
 
@@ -330,26 +350,6 @@ Second Pass of Kruger Method
 - - -
 
 ![](kruger.png)
-
-Slicing Method
---------------
-
-![](slicing-rotated.pdf)
-
-<!--
-
-With the slicing method, you sample the volume by generating geometry at regular
-intervals through it.  Then blend the geometry together.
-
-The nice thing about the slicing method is that it will handle intersecting
-volumes as long as you sort the geometry first.
-
-The bad thing is as I said before that's a lot of geometry and you have to do it
-every frame even if the volumes themselves didn't move.
-
- - A lot of geometry
- - Tricky to implement
--->
 
 First Approach
 ==============
