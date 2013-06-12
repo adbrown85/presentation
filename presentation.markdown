@@ -738,12 +738,6 @@ Tools: Git, Make, Vim, Autotools, LaTeX, CppUnit, GTK
 
 -->
 
-Advice
-------
-
- - Start work on libraries in classes *
- - Limit scope of project
-
 Thanks
 ------
 
