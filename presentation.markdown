@@ -703,18 +703,11 @@ Future Work
 -----------
 
  - Possibly expand to three volumes?
- - Hybrid method using multiple Framebuffer attachments
  - Geometry/tesselation shaders
 
 <!--
 
 It'd be interested to see if it could be extended to more volumes...
-
-Also before I worked on rendering volumes with Booleans I had started on a
-hybrid method of some sorts that used multiple Framebuffer attachments.
-Unfortunately currently the number of textures you're allowed to use right now
-is pretty low.  If that ever went up it'd be interesting to see how that'd work
-out.
 
 Plus I could see using the new geometry and tesselation shaders in OpenGL 3 and
 4 to do the slicing method...
