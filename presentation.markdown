@@ -403,21 +403,6 @@ actually want to keep them...
  - Keep what's outside instead of inside
 -->
 
-Drawing Multiple Pieces at Once
--------------------------------
-
-    <attachment usage="depth" link="depth-renderbuffer" />
-    <depth function="greater" />
-
-<!--
-
-Maybe take this out?  Definitely need to simplify!
-
-Can draw all the pieces behind the intersection, or all the pieces in front of
-the intersection at once if you use the depth buffer.
-
--->
-
 Compositing Pass
 ----------------
 
