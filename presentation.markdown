@@ -594,13 +594,13 @@ Frame Rates of Approaches
     xmin=0,
     xlabel=Frames Per Second,
     enlarge y limits=0.2,
-    symbolic y coords={ Slicing with Attributes, Slicing with Uniforms, Boolean AND, Boolean XOR},
+    symbolic y coords={Optimized Slicing, General Slicing, Depth-Masking, Boolean XOR},
     ytick=data
 ]
 \addplot coordinates {
-    (25,Slicing with Attributes)
-    (6,Slicing with Uniforms)
-    (24,Boolean AND)
+    (25,General Slicing)
+    (6,Optimized Slicing)
+    (24,Depth-Masking)
     (24,Boolean XOR)
 };
 \end{axis}
@@ -646,7 +646,7 @@ Varying Sample Rates
   (400, 4)
   (500, 4)
 };
-\addlegendentry{Depth-masking}
+\addlegendentry{Depth-Masking}
 \addplot coordinates {
   (100, 6)
   (200, 3)
@@ -654,7 +654,7 @@ Varying Sample Rates
   (400, 1)
   (500, 1)
 };
-\addlegendentry{Slicing (uniforms)}
+\addlegendentry{General Slicing}
 \addplot coordinates {
   (100, 22)
   (200, 10)
@@ -662,7 +662,7 @@ Varying Sample Rates
   (400, 5)
   (500, 4)
 };
-\addlegendentry{Slicing (attributes)}
+\addlegendentry{Optimized Slicing}
 \end{axis}
 \end{tikzpicture}
 \end{figure}
