@@ -368,11 +368,11 @@ take the maximum of the minimum corners, and the minimum of the maximum corners.
 Boolean XOR
 -----------
 
- - Based on Hodgman/Sutherland line-clipping algorithm
-
 ![](clipping.pdf)
 
 <!--
+
+Based on Hodgman/Sutherland line-clipping algorithm
 
 Left, right, top, bottom clipping stages.  Output of one is the input of the
 next, and so on.  Normally you discard everything but the clipping area but we
