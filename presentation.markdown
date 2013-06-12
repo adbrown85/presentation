@@ -421,19 +421,6 @@ compositing pass at the end.
 
 -->
 
-Screenshot
-----------
-
-![](boolean-xor-screenshot.png)
-
-<!--
-
-And a bunny stuck to a head...
-
-Never really found time to look for better volumes...
-
--->
-
 Problem with Perspective
 ------------------------
 
@@ -492,10 +479,18 @@ volumes with other things in the scene...
 
 -->
 
-Screenshot
-----------
+Screenshots
+-----------
 
-![](boolean-and-screenshot.png)
+![](screenshots.png)
+
+<!--
+
+And a bunny stuck to a head...
+
+Never really found time to look for better volumes...
+
+-->
 
 Results
 =======
