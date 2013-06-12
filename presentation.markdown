@@ -704,6 +704,7 @@ Future Work
 
  - Possibly expand to three volumes?
  - Geometry/tesselation shaders
+ - GPGPU
 
 <!--
 
