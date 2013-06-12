@@ -385,9 +385,7 @@ actually want to keep them...
 Multiple Passes
 ---------------
 
-    uniform sampler2D Texture;
-
-    FragColor = texelFetch(Texture, gl_FragCoord.xy);
+    FragColor = texelFetch(PreviousPass, gl_FragCoord.xy);
 
 <!--
 
