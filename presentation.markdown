@@ -421,10 +421,10 @@ compositing pass at the end.
 
 -->
 
-Problem with Perspective
-------------------------
+Perspective
+-----------
 
-![](boolean-xor-problem.png)
+![](pieces-in-perspective.pdf)
 
 <!--
 
