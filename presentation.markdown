@@ -328,26 +328,10 @@ and the fragment on one of the back faces that's behind it.
 First Pass of Kruger Method
 ---------------------------
 
- 1. Bind framebuffer with texture
- 2. Cull front faces
- 3. Render, and for each fragment:
-     - Store texture coordinates
-
-- - -
-
 ![](back-faces.png)
 
 Second Pass of Kruger Method
 ----------------------------
-
- 1. Unbind framebuffer
- 2. Cull back faces
- 3. Render, and for each fragment:
-      - Form ray between texture coordinates
-      - Sample along ray, back to front
-      - Store accumulated value
-
-- - -
 
 ![](kruger.png)
 
