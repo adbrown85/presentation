@@ -3,13 +3,13 @@
   Rochester Institute of Technology
 % June 13, 2013
 
+Overview
+--------
+
 <!--
 I'll be going over a new method to render intersecting volumes, or at least a
 variation of existing methods.
 -->
-
-Overview
---------
 
  - Introduction
  - Background
